@@ -13,3 +13,12 @@ nav h1 {
 body {
     background-image:url("../assets/ignasi_pattern_s.png");
  }
+
+ .aboutmebox{
+     width: 500px;
+     height: 400px;
+     color:#43c7aa !important;
+     background-color: white;
+     position: relative;
+     margin: 2em;
+ }
