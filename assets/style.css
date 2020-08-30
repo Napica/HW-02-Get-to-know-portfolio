@@ -19,20 +19,30 @@ body {
     background-image:url("../assets/images/ignasi_pattern_s.png");
  }
 
-.aboutme {
+.aboutme, .portfolio {
   background-color: white;
-  margin: 2rem;
-  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-img {
-  float: left;
-  width: 150px;
-  height: 150px;
+main h1 {
+  color: #43c7aa !important;
+}
+
+#aboutimage{
+  float:left;
+  margin: 1em;
+}
+
+main img {
+  width: 350px;
+  height: auto;
   margin: 10px;
 }
 
- .footer {
+ footer {
   position: fixed;
   left: 0;
   bottom: 0;
