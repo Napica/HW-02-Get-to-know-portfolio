@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-html, body {
-  height: 100%;
-}
-
 nav h1 {
   color: white;
 }
@@ -23,3 +19,24 @@ body {
     background-image:url("../assets/ignasi_pattern_s.png");
 
  }
+
+ .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #43c7aa !important;
+  color: white;
+  text-align: center;
+}
+
+.greenline {
+  background-color: #43c7aa !important;
+  margin:5px;
+}
+
+footer p {
+    background-color: grey;
+    margin: 0;
+    padding: 10px;
+}
