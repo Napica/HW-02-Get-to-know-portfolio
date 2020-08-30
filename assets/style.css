@@ -16,9 +16,21 @@ nav h1 {
 }
 
 body {
-    background-image:url("../assets/ignasi_pattern_s.png");
-
+    background-image:url("../assets/images/ignasi_pattern_s.png");
  }
+
+.aboutme {
+  background-color: white;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
 
  .footer {
   position: fixed;
