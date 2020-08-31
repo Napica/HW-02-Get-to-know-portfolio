@@ -16,33 +16,43 @@ nav h1 {
 }
 
 body {
-    background-image:url("../assets/images/ignasi_pattern_s.png");
- }
+  background-image: url("../assets/images/ignasi_pattern_s.png");
+}
 
-.aboutme, .portfolio {
+.aboutme,
+.portfolio,
+.contact {
   background-color: white;
-  margin:2em;
-  padding:2em;
+  margin: 2em;
+  padding: 2em;
 }
 
 main h1 {
   color: #43c7aa !important;
 }
 
+.container {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
 img {
-  min-width: 100%;
-  margin:1em,1em,1em,1em;
-  padding:5px;
+  max-width: 100%;
+  margin: 5px.5px, 5px, 5px;
+  padding: 5px;
   float: left;
 }
 
 .img-fluid {
   max-width: 100%;
   height: auto;
+  float: left;
 }
 
 footer {
   position: fixed;
+  margin-top: 10px;
+  padding-top: 10px;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -53,12 +63,11 @@ footer {
 
 .greenline {
   background-color: #43c7aa !important;
-  margin:5px;
+  margin: 5px;
 }
 
 footer p {
-    background-color: grey;
-    margin: 0;
-    padding: 10px;
+  background-color: grey;
+  margin: 0;
+  padding: 10px;
 }
-
