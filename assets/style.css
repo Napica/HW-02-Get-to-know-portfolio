@@ -21,28 +21,27 @@ body {
 
 .aboutme, .portfolio {
   background-color: white;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  margin:2em;
+  padding:2em;
 }
 
 main h1 {
   color: #43c7aa !important;
 }
 
-#aboutimage{
-  float:left;
-  margin: 1em;
+img {
+  min-width: 100%;
+  margin:1em,1em,1em,1em;
+  padding:5px;
+  float: left;
 }
 
-main img {
-  width: 350px;
+.img-fluid {
+  max-width: 100%;
   height: auto;
-  margin: 10px;
 }
 
- footer {
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -62,3 +61,4 @@ footer p {
     margin: 0;
     padding: 10px;
 }
+
