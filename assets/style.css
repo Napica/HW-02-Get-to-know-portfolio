@@ -32,27 +32,31 @@ main h1 {
 }
 
 .container {
+  position: relative;
+  min-height: 100vh;
   margin-bottom: 5px;
   padding-bottom: 5px;
 }
 
 img {
-  max-width: 100%;
+  max-width: 350px;
+  max-height: 350px;
+  /*width: 350px;
+  height: 350px;*/
   margin: 5px.5px, 5px, 5px;
   padding: 5px;
   float: left;
 }
-
+/*
 .img-fluid {
-  max-width: 100%;
   height: auto;
   float: left;
-}
+}*/
 
 footer {
-  position: fixed;
-  margin-top: 10px;
-  padding-top: 10px;
+  position: relative;
+  margin-top: 5px;
+  padding-top: 5px;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -69,5 +73,13 @@ footer {
 footer p {
   background-color: grey;
   margin: 0;
-  padding: 10px;
+  padding: 2px;
+}
+
+@media screen and (max-width: 992px) and (min-width: 700px) {
+    img {
+      max-width: 500px;
+      max-height: 500px;
+      display: block;
+     }
 }
